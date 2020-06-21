@@ -1,9 +1,0 @@
-json placeholder-ejem
---------------------------
-https://github.com/typicode/demo/blob/master/db.json
-
-
-convertidor time stamp
------------------------
-
-https://www.timestampconvert.com/
