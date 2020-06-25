@@ -8,22 +8,57 @@
       "created": 1592759716
   
    },
-   { "id": 2, 
-   "title": "Crear 2 Json para el Proyecto",
-   "person": "Luis",
-   "state": "in-progress",
-   "deadline": 1593191710,
-   "created": 1592759716
-  
+   { "id": 2,
+    "title": "Marcado HTML del proyecto",
+    "person": "luis",
+    "state": "in-progress",
+    "deadline": 1591802130,
+    "created": 1591370128
   },
-  { "id": 3, 
-    "title": "Crear 3 Json para el Proyecto",
-    "person": "Luis",
+  { "id": 3,
+    "title": "Planificar el proyecto",
+    "person": "luis",
     "state": "done",
-    "deadline": 1593191710,
-    "created": 1592759716
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
    
-   }
+   
+   { "id": 4,
+    "title": "Dibujar Wireframes",
+    "person": "luis",
+    "state": "done",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+  { "id": 5,
+    "title": "Escribir requerimientos",
+    "person": "luis",
+    "state": "done",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+   { "id": 6,
+    "title": "Importar librerías necesarias",
+    "person": "beto",
+    "state": "to-do",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+  { "id": 7,
+    "title": "Escribir scripts",
+    "person": "beto",
+    "state": "to-do",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+  { "id": 8,
+    "title": "Subir el proyecto a la nube",
+    "person": "beto",
+    "state": "to-do",
+    "deadline": 1591802130,
+    "created": 1591370128
+  }
   
      
     ]
