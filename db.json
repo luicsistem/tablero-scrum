@@ -27,7 +27,7 @@
    { "id": 4,
     "title": "Creacion de Interface de Administrador",
     "person": "luis",
-    "state": "todo",
+    "state": "to-do",
     "deadline": 1591802130,
     "created": 1591370128
   },
@@ -41,7 +41,7 @@
    { "id": 6,
     "title": "Creacion de APIS RestFul (CRUD",
     "person": "Paolo",
-    "state": "to-do",
+    "state": "in-progress",
     "deadline": 1591802130,
     "created": 1591370128
   },
