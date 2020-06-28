@@ -10,14 +10,17 @@ axios.get(API_URL)
 function fillTasks(data) {
     data.map(d => {
         let newTask = document.createElement("article");
-        let tasktitle = document.createElement("h3");
+        newTask.classList.add("task")
+
+
+        let tasktitle = document.createElement("h5");
         tasktitle.innerText = d.title
 
         let taskPerson = document.createElement("p")
         taskPerson.innerHTML = `<span> Responsable: </span> ${d.person}`
 
         let taskDeadline = document.createElement("p")
-        taskDeadline.innerHTML = `<span>Plazo: </span> ${d.deadline}`
+        taskDeadline.innerHTML = `<span>Plazo: </span> ${unixToDate(d.deadline)}`
 
         newTask.classList.add("postit")
 
