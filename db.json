@@ -1,7 +1,7 @@
 {
     "tasks": [
       { "id": 1, 
-      "title": "Crear Json para el Proyecto",
+      "title": "Planificar el proyecto",
       "person": "Luis",
       "state": "to-do",
       "deadline": 1593191710,
@@ -9,14 +9,14 @@
   
    },
    { "id": 2,
-    "title": "Marcado HTML del proyecto",
+    "title": "Maqueteado del proyecto",
     "person": "luis",
     "state": "in-progress",
     "deadline": 1591802130,
     "created": 1591370128
   },
   { "id": 3,
-    "title": "Planificar el proyecto",
+    "title": "Autenticación login , Sign Up ",
     "person": "luis",
     "state": "done",
     "deadline": 1591802130,
@@ -25,36 +25,36 @@
    
    
    { "id": 4,
-    "title": "Dibujar Wireframes",
+    "title": "Creacion de Interface de Administrador",
     "person": "luis",
     "state": "done",
     "deadline": 1591802130,
     "created": 1591370128
   },
   { "id": 5,
-    "title": "Escribir requerimientos",
+    "title": "Diseño de Interfaces para el consumo de APIS RestFul ",
     "person": "luis",
     "state": "done",
     "deadline": 1591802130,
     "created": 1591370128
   },
    { "id": 6,
-    "title": "Importar librerías necesarias",
-    "person": "beto",
+    "title": "Creacion de APIS RestFul (CRUD",
+    "person": "Paolo",
     "state": "to-do",
     "deadline": 1591802130,
     "created": 1591370128
   },
   { "id": 7,
-    "title": "Escribir scripts",
-    "person": "beto",
+    "title": "Implementacion de la Pasarela de Pago",
+    "person": "Paolo",
     "state": "to-do",
     "deadline": 1591802130,
     "created": 1591370128
   },
   { "id": 8,
     "title": "Subir el proyecto a la nube",
-    "person": "beto",
+    "person": "Luis",
     "state": "to-do",
     "deadline": 1591802130,
     "created": 1591370128
