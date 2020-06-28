@@ -3,7 +3,7 @@
       { "id": 1, 
       "title": "Planificar el proyecto",
       "person": "Luis",
-      "state": "to-do",
+      "state": "done",
       "deadline": 1593191710,
       "created": 1592759716
   
@@ -11,7 +11,7 @@
    { "id": 2,
     "title": "Maqueteado del proyecto",
     "person": "luis",
-    "state": "in-progress",
+    "state": "done",
     "deadline": 1591802130,
     "created": 1591370128
   },
@@ -27,7 +27,7 @@
    { "id": 4,
     "title": "Creacion de Interface de Administrador",
     "person": "luis",
-    "state": "done",
+    "state": "todo",
     "deadline": 1591802130,
     "created": 1591370128
   },

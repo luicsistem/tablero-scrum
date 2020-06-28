@@ -1,3 +1,8 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
 .main-container {
   display: flex;
  
@@ -16,7 +21,7 @@ img {
   background-color: #fbcffc;
 }
 
-.task {
+.task , .postit {
   border: 1px solid #000;
   background-color: #fff;
   padding: 0 10px;

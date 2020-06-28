@@ -13,9 +13,33 @@ function fillTasks(data) {
         let tasktitle = document.createElement("h3");
         tasktitle.innerText = d.title
 
-        newTask.appendChild(tasktitle)
+        let taskPerson = document.createElement("p")
+        taskPerson.innerHTML = `<span> Responsable: </span> ${d.person}`
 
-        let column = document.getElementById("doneTasks")
-        column.appendChild(newTask)
+        let taskDeadline = document.createElement("p")
+        taskDeadline.innerHTML = `<span>Plazo: </span> ${d.deadline}`
+
+        newTask.classList.add("postit")
+
+        newTask.appendChild(tasktitle)
+        newTask.appendChild(taskPerson)
+        newTask.appendChild(taskDeadline)
+
+        let columnTodo = document.getElementById("todoTasks")
+        let columnInprogress = document.getElementById("inprogressTasks")
+        let columnDone = document.getElementById("doneTasks")
+
+
+        if(d.state === "to-do") {
+            columnTodo.appendChild(newTask)
+        }
+        if(d.state === "in-progress") {
+            columnInprogress.appendChild(newTask)
+        }
+        if(d.state === "done") {
+            columnDone.appendChild(newTask)
+        }
+        
+        
     })
 }
