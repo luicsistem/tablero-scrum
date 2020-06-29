@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* COMAN MUCHAS FRUTAS Y VERDURAS PARA QUE TENGAN ENERGÍAS Y PUEDAN SEGUI ECHANDO CÓDIGO */
+/*  SEGUI ECHANDO CÓDIGO */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -358,7 +358,7 @@ template {
 body {
   width: 100%;
   height: 100vh;
-  background: #F6F8F9;
+  background: #5d5ed7;
   font-family: sans-serif;
   color: var(--normal-text);
   overflow: hidden;
@@ -375,6 +375,7 @@ h1 {
 
 h2 {
   font-size: 16px;
+  color: #fff ;
 }
 
 h1 {
@@ -385,7 +386,9 @@ header .header-container, main {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
+.task.postit {
+  background-color: #f8f0ad;
+}
 @media screen and (min-width: 1024px) {
   header .header-container, main {
     padding-left: 2rem;
@@ -438,11 +441,11 @@ header .header-container {
 }
 
 header img {
-  height: 3rem;
+  height: 4rem;
 }
 
 header .button {
-  --color: #fbcfff;
+  --color: #108ffb;
 }
 
 main {
@@ -479,7 +482,7 @@ main .container .task-container {
   height: 100%;
   overflow: auto;
   padding: 0.5rem;
-  background: #fbcffc;
+  background: #c1e0fc;
 }
 
 main .container:hover .task {

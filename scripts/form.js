@@ -15,8 +15,9 @@ form.addEventListener("submit", ev => {
 
   axios.post(API_URL, data)
   .then(resp => {
-    createTask(resp.data)
+    createTasks(resp.data)
     formData.reset()
   })
   .catch(e => console.log(e))
 })
+
